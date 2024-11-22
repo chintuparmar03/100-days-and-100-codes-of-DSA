@@ -16,8 +16,9 @@ int main() {
         getline(cin, S);
         
         vector<string> greetings;
-        string currentGreeting;
-
+        string currentGreeting;  
+         
+         
         for (char c : S) {
             if (delimiters.find(c) != delimiters.end()) {
                 if (!currentGreeting.empty()) {
