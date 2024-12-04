@@ -38,12 +38,12 @@ int main(){
             for (int i = 0; i < noofrotation; i++) {
                 temp[i] = arr[N - noofrotation + i];
             }
-            for (int i = N - noofrotation - 1; i >= 0; i--) {
-                arr[i + noofrotation] = arr[i];
-            }
+            for (int i = N -  noofrotation - 1; i >= 0; i--) {
+                arr[i +  noofrotation] = arr[i];
+            }        
             for (int i = 0; i < noofrotation; i++) {
                 arr[i] = temp[i];
-            }
+            }     
         }
 
         for (int i = 0; i < N; i++) {
