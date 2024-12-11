@@ -14,8 +14,8 @@ int maxItems(int n, int maxSum, int banned[], int bannedSize) {
         if (!isBanned[i] && currentSum + i <= maxSum) {
             currentSum += i;
             count++;
-        } else if (currentSum + i > maxSum) {
-            break;
+        } else if    (currentSum + i > maxSum) {
+               break;
         }
     }
 
