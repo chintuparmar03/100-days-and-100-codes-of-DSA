@@ -21,8 +21,8 @@ int main() {
         for(int i=0;i<N;i++){
             sum=sum+arr[i];
         }
-        int missing=n-sum;
-        cout<<missing;
+        int miss=n-sum;
+        cout<<miss;
         
         
     }
