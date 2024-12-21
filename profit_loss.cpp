@@ -22,8 +22,8 @@ int main() {
         int count = 0;
         int totalCost = 0;
         
-        for (int i = 0; i < M; i++) {
-            if (totalCost + L[i] <= X) {
+        for (int i = 0; i < M;   i++) {
+            if (totalCost   +   L[i] <= X) {
                 totalCost += L[i];
                 count++;
             } else {
@@ -33,6 +33,6 @@ int main() {
         
         cout << count << endl;
     }
-    
+
     return 0;
 }
