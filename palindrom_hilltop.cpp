@@ -10,12 +10,12 @@ int main() {
         cin >> s;
         long int n = s.length();
 
-        if (n == 1) {
+        if (n ==    1) {
             cout << -1 << endl;
             continue;
         }
 
-        bool modified = false;
+        bool modified  =     false;
 
         for (int i = 0; i < n / 2; ++i) {
             if (s[i] != 'a') {
