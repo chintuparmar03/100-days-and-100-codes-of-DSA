@@ -24,11 +24,11 @@ int main() {
     int T;
     cin >> T;
     while (T--) {
-        int m, n, x;
-        cin >> m >> n >> x;
-        vector<vector<int>> grid(m, vector<int>(n));
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) cin >> grid[i][j];
+                int m, n, x;
+                cin >> m >> n >> x;
+                 vector<vector<int>> grid(m, vector<int>(n));
+                 for (int i = 0; i < m; i++) {
+               for (int j = 0; j < n; j++) cin >> grid[i][j];
         }
         cout << minOperationsToUniValueGrid(grid, m, n, x) << endl;
     }
