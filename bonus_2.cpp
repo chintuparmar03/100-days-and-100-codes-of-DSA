@@ -31,10 +31,12 @@ int main() {
         while (females > 0 && (females + males) >= 4) {
             maxTeams++;
             females--;  // One female for inclusivity
-            // Remove the remaining 3 members from the available pool
+            // Remove the remaining 3 members from the available pool 
             if (males >= 3) {
+
                 males -= 3;
             } else {
+
                 int remaining = 3 - males;
                 males = 0;
                 females -= remaining;
